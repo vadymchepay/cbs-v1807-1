@@ -1,0 +1,7 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="21px" height="21px" viewBox="0 0 21 21" enable-background="new 0 0 21 21" xml:space="preserve">
+<g>
+	<rect x="0" y="8" transform="matrix(0.7071 0.7071 -0.7071 0.7071 10.4998 -4.3494)" fill="#FF0000" width="21" height="5"/>
+	<rect x="0" y="8" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 25.3494 10.5004)" fill="#FF0000" width="21.001" height="5"/>
+</g>
+</svg>

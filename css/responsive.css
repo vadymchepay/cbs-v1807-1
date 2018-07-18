@@ -1,0 +1,392 @@
+@media only screen and (max-width: 835px) {
+  /* line 3, responsive.scss */
+  #header {
+    display: none;
+  }
+
+  /* line 6, responsive.scss */
+  #header-mobile {
+    display: block;
+  }
+  /* line 8, responsive.scss */
+  #header-mobile .navbar-toggle {
+    display: block;
+  }
+  /* line 11, responsive.scss */
+  #header-mobile .navbar-language-mobile {
+    position: absolute;
+    right: 0;
+  }
+
+  /* line 16, responsive.scss */
+  #deutch #top-section .left-side h1 {
+    font-size: 34px;
+  }
+
+  /* line 21, responsive.scss */
+  #top-section .row {
+    display: block;
+  }
+  /* line 24, responsive.scss */
+  #top-section .left-side {
+    height: 262px;
+    position: relative;
+    padding: 0 10%;
+  }
+  /* line 28, responsive.scss */
+  #top-section .left-side div {
+    position: absolute;
+    bottom: 0;
+  }
+  /* line 32, responsive.scss */
+  #top-section .left-side h1 {
+    font-size: 42px;
+  }
+  /* line 35, responsive.scss */
+  #top-section .left-side button {
+    border-width: 3px;
+    padding-right: 10px;
+    font-size: 38px;
+  }
+  /* line 42, responsive.scss */
+  #top-section .right-side .overlay-layer {
+    width: 100%;
+    padding: 0 30px;
+    left: 0;
+  }
+  /* line 49, responsive.scss */
+  #top-section #watch-movies h1 {
+    font-size: 38px;
+  }
+
+  /* line 55, responsive.scss */
+  #contact #map {
+    height: 250px;
+  }
+  /* line 58, responsive.scss */
+  #contact #contactSlider .carousel-control {
+    width: 10%;
+  }
+  /* line 60, responsive.scss */
+  #contact #contactSlider .carousel-control .glyphicon {
+    font-size: 40px;
+  }
+  /* line 64, responsive.scss */
+  #contact #contactCarousel {
+    height: 350px;
+  }
+  /* line 67, responsive.scss */
+  #contact #contactCarousel .location,
+  #contact #contactCarousel .additional {
+    height: auto;
+    font-size: 19px;
+    margin: 0 0 7px;
+  }
+  /* line 72, responsive.scss */
+  #contact #contactCarousel .additional {
+    min-height: 20px;
+  }
+  /* line 75, responsive.scss */
+  #contact #contactCarousel .office {
+    height: 350px;
+    padding: 20px 25px 0 25px;
+  }
+  /* line 78, responsive.scss */
+  #contact #contactCarousel .office .regional-director h4.name {
+    font-size: 15px;
+  }
+  /* line 81, responsive.scss */
+  #contact #contactCarousel .office a img {
+    max-width: 20px;
+  }
+  /* line 85, responsive.scss */
+  #contact #contactCarousel .item.active .office:nth-child(2) {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 65%;
+    margin: 0 auto;
+  }
+  /* line 92, responsive.scss */
+  #contact #contactCarousel .item.active .office:nth-child(1) {
+    position: absolute;
+    right: 85%;
+    width: 65%;
+    padding-right: 7%;
+    opacity: 0.7;
+    text-align: right;
+  }
+  /* line 100, responsive.scss */
+  #contact #contactCarousel .item.active .office:nth-child(3) {
+    position: relative;
+    left: 85%;
+    width: 65%;
+    padding-left: 7%;
+    opacity: 0.8;
+  }
+  /* line 107, responsive.scss */
+  #contact #contactCarousel .email {
+    font-size: 11px;
+  }
+
+  /* line 113, responsive.scss */
+  #work-section .carousel-caption {
+    position: static !important;
+    background: #d4164e;
+  }
+  /* line 117, responsive.scss */
+  #work-section .carousel-caption .caption-body {
+    position: static !important;
+  }
+  /* line 119, responsive.scss */
+  #work-section .carousel-caption .caption-body div {
+    width: 100% !important;
+    background: #d4164e;
+  }
+  /* line 122, responsive.scss */
+  #work-section .carousel-caption .caption-body div h1 {
+    background: #d4164e;
+    font-size: 36px !important;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+    padding: 0 20px 10px 20px;
+    min-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  /* line 131, responsive.scss */
+  #work-section .carousel-caption .caption-body div h1 span {
+    display: inline-block;
+  }
+  /* line 136, responsive.scss */
+  #work-section .carousel-caption .caption-body h3 {
+    display: none;
+  }
+  /* line 139, responsive.scss */
+  #work-section .carousel-caption .caption-body p {
+    padding: 0 10%;
+    margin-top: 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 151, responsive.scss */
+  .home-body {
+    overflow: hidden;
+  }
+
+  /* line 154, responsive.scss */
+  #workCarousel {
+    height: 100vh;
+    background: #d4164e;
+    display: block;
+  }
+
+  /* line 160, responsive.scss */
+  #work-section .video-control-1 {
+    display: block;
+  }
+
+  /* line 164, responsive.scss */
+  #selectedCarousel {
+    display: none;
+  }
+
+  /* line 168, responsive.scss */
+  #work-section .video-control-selected {
+    display: none;
+    visibility: hidden;
+  }
+
+  /* line 173, responsive.scss */
+  .pink-section .heading {
+    font-size: 36px;
+  }
+
+  /* line 176, responsive.scss */
+  #deutch .pink-section .heading {
+    font-size: 32px;
+  }
+
+  /* line 179, responsive.scss */
+  #about {
+    padding: 10%;
+  }
+  /* line 181, responsive.scss */
+  #about .col-md-7 {
+    padding: 0;
+  }
+  /* line 184, responsive.scss */
+  #about p {
+    font-size: 22px;
+  }
+
+  /* line 188, responsive.scss */
+  #contact h1 {
+    padding: 0 10%;
+  }
+
+  /* line 191, responsive.scss */
+  .mobile-work-cta-fixed {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    display: block;
+    width: 20%;
+  }
+  /* line 199, responsive.scss */
+  .mobile-work-cta-fixed img {
+    width: 100%;
+  }
+
+  /* line 203, responsive.scss */
+  #workCarousel .carousel-caption .caption-body div p {
+    font-size: 17px !important;
+  }
+  /* line 205, responsive.scss */
+  #workCarousel .carousel-caption .caption-body div p.additional-info {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  /* line 212, responsive.scss */
+  #top-section .row {
+    display: flex;
+    align-items: center;
+  }
+
+  /* line 216, responsive.scss */
+  #languageSwitcherMobile {
+    position: absolute;
+    right: 30px;
+  }
+
+  /* line 222, responsive.scss */
+  #top-section .right-side,
+  #top-section .left-side {
+    width: 50%;
+  }
+
+  /* line 226, responsive.scss */
+  #work-section {
+    position: relative;
+  }
+  /* line 228, responsive.scss */
+  #work-section .carousel-caption {
+    height: 100vh !important;
+  }
+
+  /* line 232, responsive.scss */
+  #workCarousel {
+    height: auto !important;
+  }
+
+  /* line 235, responsive.scss */
+  #work-all-section {
+    position: relative;
+  }
+
+  /* line 238, responsive.scss */
+  .mobile-work-cta-fixed {
+    bottom: 0;
+    right: 35px;
+    width: 15%;
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 578px) {
+  /* line 248, responsive.scss */
+  #jobs {
+    height: auto;
+  }
+
+  /* line 252, responsive.scss */
+  .posted-job .job-img {
+    width: 161px;
+    height: 91px;
+  }
+  /* line 256, responsive.scss */
+  .posted-job .job-desc-shot {
+    width: calc(100% - 161px);
+    height: 91px;
+    padding: 8px 12px;
+  }
+  /* line 260, responsive.scss */
+  .posted-job .job-desc-shot .job-title {
+    margin-top: 0;
+    margin-bottom: 11px;
+    font-size: 20px;
+    line-height: 10px;
+  }
+  /* line 266, responsive.scss */
+  .posted-job .job-desc-shot .job-location {
+    margin-bottom: 10px;
+  }
+  /* line 268, responsive.scss */
+  .posted-job .job-desc-shot .job-location span {
+    margin-left: 11px;
+    font-size: 18px;
+    line-height: 15px;
+  }
+  /* line 273, responsive.scss */
+  .posted-job .job-desc-shot .job-location::before {
+    width: 15px;
+    height: 20px;
+  }
+  /* line 279, responsive.scss */
+  .posted-job .job-desc-shot .job-project span {
+    margin-left: 11px;
+    font-size: 18px;
+    line-height: 15px;
+  }
+  /* line 284, responsive.scss */
+  .posted-job .job-desc-shot .job-project::before {
+    width: 15px;
+  }
+}
+@media only screen and (max-width: 416px) {
+  /* line 295, responsive.scss */
+  .play-pause img {
+    width: 16%;
+  }
+}
+@media only screen and (max-width: 416px) {
+  /* line 301, responsive.scss */
+  #jobs {
+    height: auto;
+  }
+  /* line 303, responsive.scss */
+  #jobs .heading {
+    margin-top: 71px;
+  }
+
+  /* line 308, responsive.scss */
+  .posted-job .job-img {
+    display: none;
+  }
+  /* line 311, responsive.scss */
+  .posted-job .job-desc-shot {
+    min-width: 100%;
+  }
+
+  /* line 316, responsive.scss */
+  .posted-job-desc .job-desc-long {
+    padding: 19px 33px 20px 28px;
+    font-size: 14px;
+  }
+  /* line 321, responsive.scss */
+  .posted-job-desc .job-apply .job-contact {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* line 333, responsive.scss */
+  #top-section .left-side {
+    height: 225px;
+  }
+}
