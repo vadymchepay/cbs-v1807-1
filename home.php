@@ -370,7 +370,7 @@
         var mapHeight = window.innerHeight - videoWiewHeight;
         $('head').append('<style type="text/css">' + '@media screen and (max-width: 767px) {' + '#work-section #workCarousel .carousel-control {height: ' + videoWiewHeight + 'px}' + '#work-section #workCarousel .carousel-inner, #work-section{height: auto}' + '#work-section #workCarousel .item video {width: 100%;min-width: auto !important;height: ' + videoWiewHeight + 'px; min-height: auto !important;}' + '#work-section .play-pause {height: ' + videoWiewHeight + 'px}' + '.work-carousel-control {height: ' + videoWiewHeight + 'px; width: 10%}' + '#work-map { height:' + mapHeight + 'px!important}' + '#work-section .mute-video {top: ' + mute + 'px; bottom: auto; width: 50px; left: 0}' + '#work-section .mute-video img {width: 100%}' + '#work-section .seek-bar {top: ' + videoWiewHeight + 'px; border-radius: 0}' + '.carousel-caption {height: ' + mapHeight + 'px!important; overflow-y: scroll;-webkit-overflow-scrolling: touch; pointer-events: auto!important;}' + '}' + '@media only screen and (max-width: 767px) and (orientation: landscape) {' + '#work-map {height: 100vh!important;}' + '}' + '</style>');
     </script>
-    <script src="js/work.js"></script>
+    <script src="js/work.min.js"></script>
     <!--    <script src="js/work-bottom.js"></script>-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIr3O2RS5i5_F7oDmyErmxFn3TpBfzaEY&callback=myMap"></script>
 </body>

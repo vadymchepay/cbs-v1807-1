@@ -15,5 +15,7 @@ $jobs = 'jobs';
 
 $mobileLang = '<a class="nav-link dropdown-toggle" href="en.php" id="langMobile" role="button">de</a>';
 
+$legal = 'Impressum';
+
 include ("jobs-body.php");
 ?>

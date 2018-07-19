@@ -8,23 +8,16 @@
     <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
 
     <!--Bootstrap-->
-    <!--    <link rel="stylesheet" href="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--    <script src="js/pure-swipe.min.js"></script>-->
-    <script src="js/jquery.touchSwipe.min.js"></script>
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 
     <!--Style-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
     <!--Scripts-->
-    <script src="js/scripts.js"></script>
-    <script src="js/jobs-navigation.js"></script>
-    <script src="js/jobs.js"></script>
-   
+
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 </head>
@@ -101,7 +94,7 @@
                     </button>
                         <a href="<?php echo $currentLanguage?>.php" class="navbar-brand"><img class="img-responsive" src="img/logo.png" alt="Comberry"></a>
                         <div class="navbar-language-mobile dropdown">
-                               <?php echo $mobileLang?>
+                            <?php echo $mobileLang?>
                         </div>
                     </div>
                 </div>
@@ -288,7 +281,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-xs-6">© 2018 Comberrystudios</div>
-                    <div class="col-md-6 col-xs-6" align="right"><a id="open-legal-notice transition" href="legal-notice.php">impressum</a></div>
+                    <div class="col-md-6 col-xs-6" align="right"><a id="open-legal-notice transition" href="legal-notice.php"><?php echo $legal?></a></div>
                 </div>
             </div>
         </div>
@@ -338,15 +331,15 @@
                 </li>
             </ul>
         </div>
-        <!--Mobile sidebar-->
 
-        <!--Scripts-->
-<!--
-        <script src="js/map.js"></script>
-        <script src="js/contact-carousel.js"></script>
--->
-        <script src="js/mobile-menu.js"></script>
-<!--        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIr3O2RS5i5_F7oDmyErmxFn3TpBfzaEY&callback=myMap"></script>-->
+        <!--Mobile sidebar-->
+    </div>
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jobs-navigation.min.js"></script>
+
+
 </body>
 
 </html>
