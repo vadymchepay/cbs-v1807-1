@@ -20,7 +20,7 @@
 <body id="<?php echo $bodyID?>" class="jobs-body">
     <div class="content">
         <!--Header-->
-        <div id="header">
+        <div id="header" class="header">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">

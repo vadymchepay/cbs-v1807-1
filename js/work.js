@@ -1846,25 +1846,34 @@ $(document).ready(function () {
     var lastY;
     var currentY;
     var pos = 0;
+//    var firstScreen = $('#work-section');
+//    var screenHeight = firstScreen.height();
+    var viewHeight = $(window).height();
+    var headerLogo = $("#anim-header .navbar-header .navbar-brand .img-responsive");
+    var animHeader = false;
+ 
+    
     $(window).scroll(function () {
         pos = $(this).scrollTop();
+        if (pos >= viewHeight) {
+            $("#header").addClass("header_solid");
+            headerLogo.attr('src', 'img/logo_white_2.png');
+            animHeader = true;
+        } else if (animHeader && pos <= viewHeight){
+            $("#header").removeClass("header_solid");
+            headerLogo.attr('src', 'img/logo.png');
+            animHeader = false;
+        }
+        
+        
     });
+    
+    
     $('.home-body').bind('touchstart', function (e) {
         var currentY = e.originalEvent.touches[0].clientY;
         lastY = currentY;
     });
-    //    $('.home-body').bind('mousewheel', function (n) {
-    //        var n1 = n.originalEvent;
-    //        var deltaY = n1.deltaY;
-    //        if (!onExpore && deltaY > 0) {
-    //            workReel();
-    //            onExpore = true;
-    //        } else if (pos === 0 && deltaY < 0 && onExpore === true) {
-    //            showReel()
-    //            onExpore = false;
-    //        }
-    //
-    //    });
+
     $('.home-body').bind('touchmove', function (e) {
         var currentY = e.originalEvent.touches[0].clientY;
         if (!onExpore && lastY > currentY) {
