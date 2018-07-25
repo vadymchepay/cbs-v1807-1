@@ -43,75 +43,75 @@ function myMap() {
                 ]
             }
             , {
-                "elementType": "geometry",
-                "stylers": [
+                "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#f5f5f5"
                     }
                 ]
             }
             , {
-                "elementType": "labels",
-                "stylers": [
+                "elementType": "labels"
+                , "stylers": [
                     {
                         "visibility": "off"
                     }
                 ]
             }
             , {
-                "elementType": "labels.icon",
-                "stylers": [
+                "elementType": "labels.icon"
+                , "stylers": [
                     {
                         "visibility": "off"
                     }
                 ]
             }
             , {
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#616161"
                     }
                 ]
             }
             , {
-                "elementType": "labels.text.stroke",
-                "stylers": [
+                "elementType": "labels.text.stroke"
+                , "stylers": [
                     {
                         "color": "#f5f5f5"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.country",
-                "stylers": [
+                "featureType": "administrative.country"
+                , "stylers": [
                     {
                         "color": "#78193d"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.country",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "administrative.country"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#85b5dd"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.country",
-                "elementType": "geometry.fill",
-                "stylers": [
+                "featureType": "administrative.country"
+                , "elementType": "geometry.fill"
+                , "stylers": [
                     {
                         "color": "#85b5dd"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.country",
-                "elementType": "geometry.stroke",
-                "stylers": [
+                "featureType": "administrative.country"
+                , "elementType": "geometry.stroke"
+                , "stylers": [
                     {
                         "color": "#afcbdf"
                     }
@@ -124,160 +124,160 @@ function myMap() {
                 ]
             }
             , {
-                "featureType": "administrative.land_parcel",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "administrative.land_parcel"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#bdbdbd"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.neighborhood",
-                "stylers": [
+                "featureType": "administrative.neighborhood"
+                , "stylers": [
                     {
                         "visibility": "off"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.province",
-                "elementType": "geometry.fill",
-                "stylers": [
+                "featureType": "administrative.province"
+                , "elementType": "geometry.fill"
+                , "stylers": [
                     {
                         "color": "#ffffff"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.province",
-                "elementType": "geometry.stroke",
-                "stylers": [
+                "featureType": "administrative.province"
+                , "elementType": "geometry.stroke"
+                , "stylers": [
                     {
                         "color": "#ffffff"
                     }
                 ]
             }
             , {
-                "featureType": "landscape",
-                "stylers": [
+                "featureType": "landscape"
+                , "stylers": [
                     {
                         "color": "#f6f7f6"
                     }
                 ]
             }
             , {
-                "featureType": "poi",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "poi"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#eeeeee"
                     }
                 ]
             }
             , {
-                "featureType": "poi",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "poi"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#757575"
                     }
                 ]
             }
             , {
-                "featureType": "poi.park",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "poi.park"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#e5e5e5"
                     }
                 ]
             }
             , {
-                "featureType": "poi.park",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "poi.park"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
                 ]
             }
             , {
-                "featureType": "road",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "road"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#ffffff"
                     }
                 ]
             }
             , {
-                "featureType": "road.arterial",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.arterial"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#757575"
                     }
                 ]
             }
             , {
-                "featureType": "road.highway",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "road.highway"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#dadada"
                     }
                 ]
             }
             , {
-                "featureType": "road.highway",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.highway"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#616161"
                     }
                 ]
             }
             , {
-                "featureType": "road.local",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.local"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
                 ]
             }
             , {
-                "featureType": "transit.line",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "transit.line"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#e5e5e5"
                     }
                 ]
             }
             , {
-                "featureType": "transit.station",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "transit.station"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#eeeeee"
                     }
                 ]
             }
             , {
-                "featureType": "water",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "water"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#afcbdf"
                     }
                 ]
             }
             , {
-                "featureType": "water",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "water"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
@@ -289,185 +289,185 @@ function myMap() {
     var styledWorkMap = new google.maps.StyledMapType(
         [
             {
-                "elementType": "geometry",
-                "stylers": [
+                "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#f5f5f5"
                     }
                 ]
             }
             , {
-                "elementType": "labels.icon",
-                "stylers": [
+                "elementType": "labels.icon"
+                , "stylers": [
                     {
                         "visibility": "off"
                     }
                 ]
             }
             , {
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#616161"
                     }
                 ]
             }
             , {
-                "elementType": "labels.text.stroke",
-                "stylers": [
+                "elementType": "labels.text.stroke"
+                , "stylers": [
                     {
                         "color": "#f5f5f5"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.country",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "administrative.country"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#b3b3b1"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.land_parcel",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "administrative.land_parcel"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#bdbdbd"
                     }
                 ]
             }
             , {
-                "featureType": "administrative.province",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "administrative.province"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#b3b3b1"
                     }
                 ]
             }
             , {
-                "featureType": "poi",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "poi"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#eeeeee"
                     }
                 ]
             }
             , {
-                "featureType": "poi",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "poi"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#757575"
                     }
                 ]
             }
             , {
-                "featureType": "poi.park",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "poi.park"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#e5e5e5"
                     }
                 ]
             }
             , {
-                "featureType": "poi.park",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "poi.park"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
                 ]
             }
             , {
-                "featureType": "road",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "road"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#ffffff"
                     }
                 ]
             }
             , {
-                "featureType": "road.arterial",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.arterial"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#757575"
                     }
                 ]
             }
             , {
-                "featureType": "road.highway",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "road.highway"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#dadada"
                     }
                 ]
             }
             , {
-                "featureType": "road.highway",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.highway"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#616161"
                     }
                 ]
             }
             , {
-                "featureType": "road.local",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "road.local"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
                 ]
             }
             , {
-                "featureType": "transit.line",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "transit.line"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#e5e5e5"
                     }
                 ]
             }
             , {
-                "featureType": "transit.station",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "transit.station"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#eeeeee"
                     }
                 ]
             }
             , {
-                "featureType": "water",
-                "elementType": "geometry",
-                "stylers": [
+                "featureType": "water"
+                , "elementType": "geometry"
+                , "stylers": [
                     {
                         "color": "#c9c9c9"
                     }
                 ]
             }
             , {
-                "featureType": "water",
-                "elementType": "geometry.fill",
-                "stylers": [
+                "featureType": "water"
+                , "elementType": "geometry.fill"
+                , "stylers": [
                     {
                         "color": "#111111"
                     }
                 ]
             }
             , {
-                "featureType": "water",
-                "elementType": "labels.text.fill",
-                "stylers": [
+                "featureType": "water"
+                , "elementType": "labels.text.fill"
+                , "stylers": [
                     {
                         "color": "#9e9e9e"
                     }
@@ -478,64 +478,64 @@ function myMap() {
         });
     var markers = [
         {
-            "title": "malaysia",
-            "lat": '3.136705',
-            "lng": '101.687409'
+            "title": "malaysia"
+            , "lat": '3.136705'
+            , "lng": '101.687409'
         }
         , {
-            "title": "germany",
-            "lat": '48.189459',
-            "lng": '11.644860'
+            "title": "germany"
+            , "lat": '48.189459'
+            , "lng": '11.644860'
         }
         , {
-            "title": "russia",
-            "lat": '55.749473',
-            "lng": '37.620110'
+            "title": "russia"
+            , "lat": '55.749473'
+            , "lng": '37.620110'
         }
         , {
-            "title": "boston",
-            "lat": '42.343708',
-            "lng": '-71.065915'
+            "title": "boston"
+            , "lat": '42.343708'
+            , "lng": '-71.065915'
         }
         , {
-            "title": "china",
-            "lat": '31.091512',
-            "lng": '121.451869'
+            "title": "china"
+            , "lat": '31.091512'
+            , "lng": '121.451869'
         }
         , {
-            "title": "india",
-            "lat": '12.972027',
-            "lng": '77.590416'
+            "title": "india"
+            , "lat": '12.972027'
+            , "lng": '77.590416'
         }
         , {
-            "title": "tokyo",
-            "lat": '35.708396',
-            "lng": '139.732351'
+            "title": "tokyo"
+            , "lat": '35.708396'
+            , "lng": '139.732351'
         }
         , {
-            "title": "berlin",
-            "lat": '52.514871',
-            "lng": '13.394491'
+            "title": "berlin"
+            , "lat": '52.514871'
+            , "lng": '13.394491'
         }
     ];
     var icon = {
-        url: "img/marker.png",
-        scaledSize: new google.maps.Size(20, 20)
+        url: "img/marker.png"
+        , scaledSize: new google.maps.Size(20, 20)
     };
     var iconActive = {
-        url: "img/marker.png",
-        scaledSize: new google.maps.Size(30, 30)
+        url: "img/marker.png"
+        , scaledSize: new google.maps.Size(30, 30)
     };
     var mapOptions = {
-        center: new google.maps.LatLng(48.189459, 11.644860),
-        zoom: 2,
-        mapTypeId: google.maps.MapTypeId.HYBRID
+        center: new google.maps.LatLng(48.189459, 11.644860)
+        , zoom: 2
+        , mapTypeId: google.maps.MapTypeId.HYBRID
     };
     var workMapOptions = {
-        center: new google.maps.LatLng(-4.338065, 122.467041),
-        zoom: 2,
-        backgroundColor: '#111',
-        mapTypeId: google.maps.MapTypeId.HYBRID
+        center: new google.maps.LatLng(-4.338065, 122.467041)
+        , zoom: 2
+        , backgroundColor: '#111'
+        , mapTypeId: google.maps.MapTypeId.HYBRID
     };
     var closeButton;
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -567,22 +567,22 @@ function myMap() {
             // Creating a marker and putting it on the map
             if (data.enabled === 1) {
                 var videomarker = new google.maps.Marker({
-                    id: data.projectid,
-                    title: data.posttitleen,
-                    titlede: data.posttitlede,
-                    position: latLng,
-                    shortdescren: data.shortdescren,
-                    shortdescrde: data.shortdescrde,
-                    year: data.year,
-                    country: data.country,
-                    cliplength: data.cliplength,
-                    color: data.keycolor,
-                    map: workmap,
-                    icon: {
-                        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(template.replace('{{ color }}', data.keycolor)),
-                        scaledSize: new google.maps.Size(35, 35)
-                    },
-                    optimized: false
+                    id: data.projectid
+                    , title: data.posttitleen
+                    , titlede: data.posttitlede
+                    , position: latLng
+                    , shortdescren: data.shortdescren
+                    , shortdescrde: data.shortdescrde
+                    , year: data.year
+                    , country: data.country
+                    , cliplength: data.cliplength
+                    , color: data.keycolor
+                    , map: workmap
+                    , icon: {
+                        url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(template.replace('{{ color }}', data.keycolor))
+                        , scaledSize: new google.maps.Size(35, 35)
+                    }
+                    , optimized: false
                 });
             }
             // }
@@ -610,10 +610,10 @@ function myMap() {
         var data = markers[i];
         var myLatlng = new google.maps.LatLng(data.lat, data.lng);
         var marker = new google.maps.Marker({
-            title: data.title,
-            position: myLatlng,
-            map: map,
-            icon: icon
+            title: data.title
+            , position: myLatlng
+            , map: map
+            , icon: icon
         });
         markersArray.push(marker);
         (function (marker, data) {
@@ -629,7 +629,8 @@ function myMap() {
                 if (data.title === 'russia' || data.title === 'germany' || data.title === 'berlin') {
                     infowindow2.setContent('<div class="marker-info">' + string + "</div>");
                     infowindow2.open(map, this);
-                } else {
+                }
+                else {
                     infowindow.setContent('<div class="marker-info">' + string + "</div>");
                     infowindow.open(map, this);
                 }
@@ -648,39 +649,39 @@ function myMap() {
                     }, 200);
                 }
                 switch (data.title) {
-                    case "malaysia":
-                        markerSelected("malaysia");
-                        break;
-                    case "germany":
-                        markerSelected("germany");
-                        break;
-                    case "russia":
-                        markerSelected("russia");
-                        break;
-                    case "boston":
-                        markerSelected("boston");
-                        break;
-                    case "china":
-                        markerSelected("china");
-                        break;
-                    case "india":
-                        markerSelected("india");
-                        break;
-                    case "tokyo":
-                        markerSelected("tokyo");
-                        break;
-                    case "berlin":
-                        markerSelected("berlin");
-                        break;
+                case "malaysia":
+                    markerSelected("malaysia");
+                    break;
+                case "germany":
+                    markerSelected("germany");
+                    break;
+                case "russia":
+                    markerSelected("russia");
+                    break;
+                case "boston":
+                    markerSelected("boston");
+                    break;
+                case "china":
+                    markerSelected("china");
+                    break;
+                case "india":
+                    markerSelected("india");
+                    break;
+                case "tokyo":
+                    markerSelected("tokyo");
+                    break;
+                case "berlin":
+                    markerSelected("berlin");
+                    break;
                 }
             });
         })(marker, data);
     }
     markersArray[1].setIcon({
-        url: "img/marker.png",
-        scaledSize: {
-            width: 30,
-            height: 30
+        url: "img/marker.png"
+        , scaledSize: {
+            width: 30
+            , height: 30
         }
     })
 }
@@ -688,10 +689,10 @@ function myMap() {
 function changeMarker(title) {
     for (i in markersArray) {
         markersArray[i].setIcon({
-            url: "img/marker.png",
-            scaledSize: {
-                width: 20,
-                height: 20
+            url: "img/marker.png"
+            , scaledSize: {
+                width: 20
+                , height: 20
             }
         })
     }
@@ -699,10 +700,10 @@ function changeMarker(title) {
         if (markersArray[i].title === title) {
             map.panTo(markersArray[i].getPosition());
             markersArray[i].setIcon({
-                url: "img/marker.png",
-                scaledSize: {
-                    width: 30,
-                    height: 30
+                url: "img/marker.png"
+                , scaledSize: {
+                    width: 30
+                    , height: 30
                 }
             })
         }
@@ -731,7 +732,8 @@ function markerSelected(item) {
     var element = document.getElementById(item).previousElementSibling;
     if (!element) {
         document.getElementById("berlin").classList.add("active");
-    } else {
+    }
+    else {
         element.classList.add("active");
     }
 }
@@ -741,9 +743,11 @@ function checkLocation(difference) {
         if (slides.item(i).classList.contains("active")) {
             if (difference > 0 && slides.item(i).id === "berlin") {
                 changeMarker("germany");
-            } else if (difference > 0 && slides.item(i).id === "tokyo") {
+            }
+            else if (difference > 0 && slides.item(i).id === "tokyo") {
                 changeMarker("malaysia");
-            } else {
+            }
+            else {
                 changeMarker(slides.item(i + difference).id);
             }
         }
@@ -788,7 +792,8 @@ function openInfoBox(elem) {
             '</div>' + '<div class="arrow" style="border-right: 40px solid ' + elem.color + '"></div>' + '<div class="content">' + '<h4 class="title" style="background-color:' + elem.color + ';color:' + textcolor + ';"' + elem.titlede + '</h4>' +
             //'<p>'+contentString+'</p>'+
             '<p style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.shortdescrde + '</p>' + '<p style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.year + ' | ' + elem.country + ' | ' + Math.round(elem.cliplength * 100 / 60) / 100 + ' min</p>' + '</div>' + '<div style="clear:both;"></div>' + '</div>'
-    } else {
+    }
+    else {
         info = '<div class="cbinfobox">' + '<div class="thumb" style="background:url(' + tmpthumb + ') no-repeat center 0;background-size:auto 100%;background-color:#fff;border-color:' + elem.color + ';">' +
             //'<div class="overlay"><button onclick="initVideoPlayer(pois[slideid][\'poster\'][0],pois[slideid][\'content\'],pois[slideid][\'clip_ogg\'])"><img src="'+path+'wp-content/themes/comberry/img/btn-play.png" alt="Play" title="Play"/></button></div>'+
             '</div>' + '<div class="arrow" style="border-right: 40px solid ' + elem.color + '"></div>' + '<div class="content">' + '<h4 class="title" style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.title + '</h4>' +
@@ -801,7 +806,8 @@ function openInfoBox(elem) {
         var newLat = elem.getPosition().lat() + 25;
         var newLng = elem.getPosition().lng() - 85;
         workmap.setCenter(new google.maps.LatLng(newLat, newLng));
-    } else {
+    }
+    else {
         workmap.setCenter(elem.getPosition());
     }
     $(".infoBox img:first-child").attr('src', 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(btnClose.replace('{{ color }}', elem.color).replace('{{ color2 }}', elem.color)));
@@ -816,7 +822,8 @@ function openInfoBoxMob(elem) {
             '</div>' + '<div class="arrow" style="border-right: 40px solid ' + elem.color + '"></div>' + '<div class="content">' + '<h4 class="title" style="background-color:' + elem.color + ';color:' + textcolor + ';"' + elem.titlede + '</h4>' +
             //'<p>'+contentString+'</p>'+
             '<p style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.shortdescrde + '</p>' + '<p style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.year + ' | ' + elem.country + ' | ' + Math.round(elem.cliplength * 100 / 60) / 100 + ' min</p>' + '</div>' + '<div style="clear:both;"></div>' + '</div>'
-    } else {
+    }
+    else {
         info = '<div class="cbinfobox">' + '<div class="thumb" style="background:url(' + tmpthumb + ') no-repeat center 0;background-size:auto 100%;background-color:#fff;border-color:' + elem.color + ';">' +
             //'<div class="overlay"><button onclick="initVideoPlayer(pois[slideid][\'poster\'][0],pois[slideid][\'content\'],pois[slideid][\'clip_ogg\'])"><img src="'+path+'wp-content/themes/comberry/img/btn-play.png" alt="Play" title="Play"/></button></div>'+
             '</div>' + '<div class="arrow" style="border-right: 40px solid ' + elem.color + '"></div>' + '<div class="content">' + '<h4 class="title" style="background-color:' + elem.color + ';color:' + textcolor + ';">' + elem.title + '</h4>' +
@@ -830,7 +837,6 @@ function openInfoBoxMob(elem) {
     workmap.setCenter(new google.maps.LatLng(newLat, newLng));
     $(".infoBox img:first-child").attr('src', 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(btnClose.replace('{{ color }}', elem.color).replace('{{ color2 }}', elem.color)));
 }
-
 //Functions
 function initOnLoad() {
     renderMarkers();
@@ -1846,34 +1852,41 @@ $(document).ready(function () {
     var lastY;
     var currentY;
     var pos = 0;
-//    var firstScreen = $('#work-section');
-//    var screenHeight = firstScreen.height();
+    //    var firstScreen = $('#work-section');
+    //    var screenHeight = firstScreen.height();
     var viewHeight = $(window).height();
     var headerLogo = $("#anim-header .navbar-header .navbar-brand .img-responsive");
     var animHeader = false;
- 
-    
     $(window).scroll(function () {
         pos = $(this).scrollTop();
-        if (pos >= viewHeight) {
+        if (pos >= viewHeight - 80) {
             $("#header").addClass("header_solid");
             headerLogo.attr('src', 'img/logo_white_2.png');
             animHeader = true;
-        } else if (animHeader && pos <= viewHeight){
+        }
+        else if (animHeader && pos <= viewHeight) {
             $("#header").removeClass("header_solid");
             headerLogo.attr('src', 'img/logo.png');
             animHeader = false;
         }
-        
-        
     });
     
+    
+    if (pos <= viewHeight) {
+        $("#anim-header").mouseover(function () {
+            $("#header").addClass("header_solid");
+            headerLogo.attr('src', 'img/logo_white_2.png');
+        });
+        $("#anim-header").mouseout(function () {
+            $("#header").removeClass("header_solid");
+            headerLogo.attr('src', 'img/logo.png');
+        });
+    }
     
     $('.home-body').bind('touchstart', function (e) {
         var currentY = e.originalEvent.touches[0].clientY;
         lastY = currentY;
     });
-
     $('.home-body').bind('touchmove', function (e) {
         var currentY = e.originalEvent.touches[0].clientY;
         if (!onExpore && lastY > currentY) {
