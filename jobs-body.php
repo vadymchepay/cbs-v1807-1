@@ -26,7 +26,7 @@
 
     <div class="content">
         <!--Header-->
-        <div id="header" class="header">
+        <div id="header" class="header header_solid">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">

@@ -27,6 +27,9 @@ var btnClose = [
     '</svg>'
 ].join('\n');
 var workinfobox;
+var wAllCont = $("#work-all-content");
+console.log("height = " + wAllCont.height());
+console.log("innerHeight = " + wAllCont.innerHeight());
 
 function myMap() {
     var s = document.createElement("script");
@@ -1852,26 +1855,29 @@ $(document).ready(function () {
     var lastY;
     var currentY;
     var pos = 0;
-    //    var firstScreen = $('#work-section');
-    //    var screenHeight = firstScreen.height();
     var viewHeight = $(window).height();
+    var animHeaderPos = viewHeight - 80;
     var headerLogo = $("#anim-header .navbar-header .navbar-brand .img-responsive");
     var animHeader = false;
     $(window).scroll(function () {
         pos = $(this).scrollTop();
-        if (pos >= viewHeight - 80) {
+        if (pos >= animHeaderPos) {
             $("#header").addClass("header_solid");
             headerLogo.attr('src', 'img/logo_white_2.png');
             animHeader = true;
         }
         else if (animHeader && pos <= viewHeight) {
             $("#header").removeClass("header_solid");
-            headerLogo.attr('src', 'img/logo.png');
+            if (logoTrigger) {
+                headerLogo.attr('src', 'img/logo_white.png');
+            }
+            else {
+                headerLogo.attr('src', 'img/logo.png');
+            }
             animHeader = false;
         }
+
     });
-    
-    
     if (pos <= viewHeight) {
         $("#anim-header").mouseover(function () {
             $("#header").addClass("header_solid");
@@ -1879,10 +1885,14 @@ $(document).ready(function () {
         });
         $("#anim-header").mouseout(function () {
             $("#header").removeClass("header_solid");
-            headerLogo.attr('src', 'img/logo.png');
+            if (logoTrigger) {
+                headerLogo.attr('src', 'img/logo_white.png');
+            }
+            else {
+                headerLogo.attr('src', 'img/logo.png');
+            }
         });
     }
-    
     $('.home-body').bind('touchstart', function (e) {
         var currentY = e.originalEvent.touches[0].clientY;
         lastY = currentY;
@@ -1958,19 +1968,10 @@ $(document).ready(function () {
         else {
             hideSel()
         }
+        $(".navbar-brand .img-responsive").attr("src", "img/logo_white.png");
+        logoTrigger = true;
     });
-    $(window).scroll(function () {
-        var sPos = $(this).scrollTop();
-        var wsHeight = $("#work-all-section").height();
-        if (sPos >= wsHeight && logoTrigger) {
-            $(".navbar-brand .img-responsive").attr("src", "img/logo.png");
-            logoTrigger = false;
-        }
-        if (sPos <= wsHeight && !logoTrigger && allWorksTrigger) {
-            $(".navbar-brand .img-responsive").attr("src", "img/logo_white.png");
-            logoTrigger = true;
-        }
-    });
+
     $("#watch-movies").click(function () {
         selectedTrig = true;
         $("#watch-movies").hide();

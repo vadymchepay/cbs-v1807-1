@@ -58,22 +58,8 @@ video::-webkit-media-controls-mute-button {
     cursor: pointer;
 }
 
-.nav-item {
-    a {
-        color: #fff;
-        &:hover {
-            color: #fff;
-        }
-        &:active {
-            color: #fff;
-            text-decoration: underline;
-        }
-    }
-}
-
 //Header
-#header, 
-.header,
+#header,
 #header-mobile {
     .navbar {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.375) 0%, rgba(0, 0, 0, 0) 75%);
@@ -170,8 +156,7 @@ video::-webkit-media-controls-mute-button {
     }
 }
 
-#header.header_solid,
-.header_solid {
+#header.header_solid {
     .navbar {
         background: #d4164e;
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.13);
@@ -580,7 +565,8 @@ video::-webkit-media-controls-mute-button {
         font-family: $primary-font;
         padding: 8%;
         padding-top: 70px;
-        overflow-y: hidden;
+        padding-bottom: 5px;
+        overflow-y: auto;
         .video-blockquote {
             line-height: 0;
             position: relative;
@@ -733,7 +719,7 @@ video::-webkit-media-controls-mute-button {
         }
         h3 {
             font-size: 31px;
-            margin: 5px 0 20px 0;
+            margin: 5px 0 15px 0;
             text-transform: uppercase;
         }
         p {
@@ -742,7 +728,7 @@ video::-webkit-media-controls-mute-button {
         .additional-info {
             font-family: "Titillium Web", sans-serif;
             font-size: 16px;
-            margin-top: 20px;
+            margin-top: 15px;
         }
     }
 }

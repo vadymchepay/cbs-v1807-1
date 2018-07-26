@@ -2,7 +2,7 @@
     <div class="col-md-6 work-map-container">
         <div id="work-map"></div>
     </div>
-    <div class="col-md-6 work-all-content">
+    <div class="col-md-6 work-all-content" id="work-all-content">
         <div class="video-blockquote">
             <div class="all-video-player">
                 <a class="left carousel-control work-carousel-control" href="#workCarousel" data-slide="prev">
