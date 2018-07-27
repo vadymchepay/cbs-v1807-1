@@ -71,6 +71,9 @@ video::-webkit-media-controls-mute-button {
                 opacity: 1;
             }
         }
+        .navbar-header {
+            transition: all 0.3s;
+        }
         .navbar-brand {
             cursor: pointer;
             opacity: 1;
@@ -93,6 +96,7 @@ video::-webkit-media-controls-mute-button {
                 font-weight: 400;
                 font-size: 20px;
                 color: white;
+                transition: all 0.3s;
             }
             a:hover {
                 font-weight: 700;
@@ -214,7 +218,7 @@ video::-webkit-media-controls-mute-button {
     }
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: #fff;
     &:hover {
         color: #fff;
