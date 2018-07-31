@@ -141,24 +141,40 @@ video::-webkit-media-controls-mute-button {
             text-decoration: underline;
         }
         .dropdown-menu {
-            background: none;
+            visibility: hidden;
+            opacity: 0;
+            display: block;
+            min-width: 90px;
+            background-color: #d4164e;
             border: none;
             box-shadow: none;
             top: 70%;
+
             a {
                 display: block;
                 color: white;
                 font-size: 18px;
                 padding-right: 15px;
-                text-align: right;
+                text-align: left;
                 &:hover {
                     padding: 0;
                     padding-right: 15px;
                 }
             }
         }
+        .nav-item.dropdown:hover {
+
+            .dropdown-menu {
+                visibility: visible;
+                opacity: 1;
+                transition: 0.3s all;
+                transition-delay: 0.3s;
+
+            }
+        }
     }
 }
+
 
 #header.header_solid {
     .navbar {
@@ -197,26 +213,63 @@ video::-webkit-media-controls-mute-button {
                 text-decoration-color: white;
             }
         }
+
+        .lang-link {
+            margin: 0;
+            a {
+                padding-left: 0;
+                padding-right: 0;
+                &:hover {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+
         .dropdown-menu {
-            background: none;
+            visibility: hidden;
+            opacity: 0;
+            display: block;
+            min-width: 100px;
+            padding: 0 15px 10px;
+            background-color: #d4164e;
             border: none;
-            box-shadow: none;
-            top: 70%;
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.13);
+            top: 80px;
+            left: 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            transition: 0.3s all;
+            ;
+
             a {
                 display: block;
                 color: white;
                 font-size: 18px;
                 padding: 0;
                 padding-right: 15px;
-                text-align: right;
+                text-align: left;
                 &:hover {
                     padding: 0;
-                    padding-right: 15px;
+                    padding-right: 14px;
+
                 }
+            }
+        }
+
+        .nav-item.dropdown:hover {
+
+            .dropdown-menu {
+                visibility: visible;
+                opacity: 1;
+                transition-delay: 0.3s;
+
             }
         }
     }
 }
+
+
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;

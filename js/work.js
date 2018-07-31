@@ -1829,7 +1829,11 @@ $(document).ready(function () {
         if (!animHeader) {
             $("#header").removeClass("header_solid");
             if (logoTrigger) {
-                headerLogo.attr('src', 'img/logo_white.png');
+                if (dropTrig) {
+                    headerLogo.attr('src', 'img/logo_white_2.png');
+                } else {
+                    headerLogo.attr('src', 'img/logo_white.png');
+                }
             } else {
                 headerLogo.attr('src', 'img/logo.png');
             }
@@ -1865,6 +1869,50 @@ $(document).ready(function () {
             legalTriger = false;
         }
     });
+    var dropTrig = false;
+//    $("#workDropdown").mouseover(function () {
+//        if (!dropTrig) {
+//            setTimeout(function () {
+//                $("#dropdownMenu").show();
+//                dropTrig = true;
+//            }, 300);
+//        }
+//    });
+//    $("#workDropdown").mouseout(function () {
+//        if (dropTrig) {
+//            $("#dropdownMenu").hide();
+//            dropTrig = false;
+//        }
+//    });
+//    $("#dropdownMenu").mouseover(function () {
+//        if (!dropTrig) {
+//            $("#dropdownMenu").show();
+//            dropTrig = true;
+//        }
+//    });
+//    $("#dropdownMenu").mouseout(function () {
+//        if (dropTrig) {
+//            $("#dropdownMenu").hide();
+//            dropTrig = false;
+//        }
+//    });
+//
+    $("#workDropdown").click(function () {
+        if (selectedTrig) {
+            $.when(selectedPlayPause()).then(hideSel());
+        } else {
+            hideSel()
+        }
+        if (dropTrig) {
+            $(".navbar-brand .img-responsive").attr("src", "img/logo_white_2.png");
+            logoTrigger = true;
+        } else {
+            $(".navbar-brand .img-responsive").attr("src", "img/logo_white.png");
+            logoTrigger = true;
+        }
+    });
+
+
     $(".selectedButton").click(function () {
         selectedTrig = true;
         allPlayPause3();
@@ -1908,8 +1956,13 @@ $(document).ready(function () {
         } else {
             hideSel()
         }
-        $(".navbar-brand .img-responsive").attr("src", "img/logo_white.png");
-        logoTrigger = true;
+        if (dropTrig) {
+            $(".navbar-brand .img-responsive").attr("src", "img/logo_white_2.png");
+            logoTrigger = true;
+        } else {
+            $(".navbar-brand .img-responsive").attr("src", "img/logo_white.png");
+            logoTrigger = true;
+        }
     });
 
     $("#watch-movies").click(function () {
