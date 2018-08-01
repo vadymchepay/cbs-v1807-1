@@ -147,7 +147,7 @@
   #work-section .carousel-caption .caption-body div h1 {
     background: #d4164e;
     font-size: 36px !important;
-    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0);
     margin-top: 0;
     padding: 0 20px 10px 20px;
     min-width: 100%;

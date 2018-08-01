@@ -149,7 +149,6 @@ video::-webkit-media-controls-mute-button {
             border: none;
             box-shadow: none;
             top: 70%;
-
             a {
                 display: block;
                 color: white;
@@ -163,18 +162,15 @@ video::-webkit-media-controls-mute-button {
             }
         }
         .nav-item.dropdown:hover {
-
             .dropdown-menu {
                 visibility: visible;
                 opacity: 1;
                 transition: 0.3s all;
                 transition-delay: 0.3s;
-
             }
         }
     }
 }
-
 
 #header.header_solid {
     .navbar {
@@ -190,7 +186,9 @@ video::-webkit-media-controls-mute-button {
             transition: all 0.3s;
         }
         .nav-item {
+     
             a {
+
                 font-family: $primary-font;
                 font-weight: 400;
                 font-size: 20px;
@@ -200,9 +198,8 @@ video::-webkit-media-controls-mute-button {
                 transition: all 0.3s;
                 &:hover {
                     color: white;
-                    font-weight: 700;
-                    padding-top: 30px;
-                    padding-bottom: 30px;
+                    -webkit-text-stroke: 1px white;
+                    padding: 30px 15px;
                     text-decoration: underline;
                     text-decoration-color: white;
                 }
@@ -213,7 +210,6 @@ video::-webkit-media-controls-mute-button {
                 text-decoration-color: white;
             }
         }
-
         .lang-link {
             margin: 0;
             a {
@@ -225,7 +221,9 @@ video::-webkit-media-controls-mute-button {
                 }
             }
         }
-
+        .margin-left {
+            margin-left: 15px;
+        }
         .dropdown-menu {
             visibility: hidden;
             opacity: 0;
@@ -241,7 +239,6 @@ video::-webkit-media-controls-mute-button {
             border-bottom-right-radius: 10px;
             transition: 0.3s all;
             ;
-
             a {
                 display: block;
                 color: white;
@@ -251,25 +248,19 @@ video::-webkit-media-controls-mute-button {
                 text-align: left;
                 &:hover {
                     padding: 0;
-                    padding-right: 14px;
-
+                    padding-right: 15px;
                 }
             }
         }
-
         .nav-item.dropdown:hover {
-
             .dropdown-menu {
                 visibility: visible;
                 opacity: 1;
                 transition-delay: 0.3s;
-
             }
         }
     }
 }
-
-
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
