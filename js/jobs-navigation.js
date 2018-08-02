@@ -193,10 +193,55 @@ $(document).ready(function () {
             logoTrigger = false;
         }
     });
+    
+     $(".content").click(function () {
+        if (menuOpened && $(this).hasClass('opened-menu')) {
+            closeMobileMenu();
+        }
+    });
+    $(".navbar-toggle").click(function () {
+        if (menuOpened) {
+            closeMobileMenu();
+        }
+        else {
+            $(".navbar-language-mobile").hide();
+            $("#header-mobile .navbar-toggle").html('<span class="sr-only">Toggle navigation</span>\n' + '<span class="glyphicon glyphicon-remove"></span>');
+            $(".navbar-toggle .glyphicon").css('color', '#fff').css('font-size', '25px');
+            $("#navbar-mobile").show().animate({
+                left: 0
+            }, 100, function () {});
+            setTimeout(function () {
+                $(".content").addClass("opened-menu")
+            }, 1);
+            menuOpened = true;
+        }
+    });
+    $(".mobile-nav-link").click(function () {
+        closeMobileMenu();
+    });
 });
 
 function scrollToSection(section) {
     $('html, body').animate({
         scrollTop: section.offset().top
     }, 500);
+}
+
+function closeMobileMenu() {
+    if ($(window).scrollTop() === 0) {
+        $(".navbar-language-mobile").show();
+    }
+    else {
+        $(".navbar-language-mobile").hide();
+    };
+    $(".navbar-toggle .icon-bar").css('background', '#d12257');
+    $("#header-mobile .navbar-toggle").html('<span class="sr-only">Toggle navigation</span>\n' + '                        <span class="icon-bar"></span>\n' + '                        <span class="icon-bar"></span>\n' + '                        <span class="icon-bar"></span>');
+    $("#navbar-mobile").animate({
+        left: -200
+    }, 100, function () {});
+    setTimeout(function () {
+        $("#navbar-mobile").hide()
+    }, 100);
+    $(".content").removeClass("opened-menu");
+    menuOpened = false;
 }

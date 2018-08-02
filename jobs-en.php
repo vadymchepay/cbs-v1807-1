@@ -13,7 +13,7 @@ $about = 'about';
 $contact = 'contact';
 $jobs = 'jobs';
 
-$mobileLang = '<a class="nav-link dropdown-toggle" href="de.php" id="langMobile" role="button">en</a>';
+$mobileLang = '<a class="nav-link dropdown-toggle" href="jobs-de.php" id="langMobile" role="button">en</a>';
 
 $legal = 'Legal';
 

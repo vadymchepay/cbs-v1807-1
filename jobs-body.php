@@ -13,8 +13,8 @@
 
 
     <!--Style-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    
 
     <!--Scripts-->
 
@@ -73,9 +73,9 @@
                                     <?php echo $jobs?>
                                 </a>
                             </li>
-                            <li class="margin-left nav-item lang-link"><a class="active nav-link" href="en.php">en</a></li>
+                            <li class="margin-left nav-item lang-link"><a class="active nav-link" href="jobs-en.php">en</a></li>
                             <li class="nav-item disabled-item lang-link"><a class="nav-link" href="#"> / </a></li>
-                            <li class="nav-item lang-link"><a class="nav-link" href="de.php">de</a></li>
+                            <li class="nav-item lang-link"><a class="nav-link" href="jobs-de.php">de</a></li>
                         </ul>
                     </div>
                 </div>
@@ -323,9 +323,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="languageMobile">
                         <?php if ($currentLanguage === 'en'): ?>
-                        <a class="dropdown-item" href="de.php">de</a>
+                        <a class="dropdown-item" href="jobs-de.php">de</a>
                         <?php else: ?>
-                        <a class="dropdown-item" href="en.php">en</a>
+                        <a class="dropdown-item" href="jobs-en.php">en</a>
                         <?php endif ?>
                     </div>
                 </li>
@@ -338,6 +338,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/jobs-navigation.min.js"></script>
+  
 
 
 </body>

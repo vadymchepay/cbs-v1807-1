@@ -62,9 +62,9 @@
                                     <?php echo $jobs?>
                                 </a>
                             </li>
-                            <li class="margin-left nav-item lang-link"><a class="active nav-link" href="en.php">en</a></li>
+                            <li class="margin-left nav-item lang-link"><a class="active nav-link" href="ln-en.php">en</a></li>
                             <li class="nav-item disabled-item lang-link"><a class="nav-link" href="#"> / </a></li>
-                            <li class="nav-item lang-link"><a class="nav-link" href="de.php">de</a></li>
+                            <li class="nav-item lang-link"><a class="nav-link" href="ln-de.php">de</a></li>
                         </ul>
                     </div>
                 </div>
@@ -162,8 +162,8 @@
                         <?php echo $currentLanguage?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="languageMobile">
-                        <?php if ($currentLanguage === 'en'): ?> <a class="dropdown-item" href="de.php">de</a>
-                        <?php else: ?> <a class="dropdown-item" href="en.php">en</a>
+                        <?php if ($currentLanguage === 'en'): ?> <a class="dropdown-item" href="ln-de.php">de</a>
+                        <?php else: ?> <a class="dropdown-item" href="ln-en.php">en</a>
                         <?php endif ?>
                     </div>
                 </li>
